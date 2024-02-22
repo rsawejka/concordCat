@@ -1,0 +1,128 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.bg-main-green{
+    background-color: #88cd00;
+}
+.bg-3b4a53{
+    background-color: #3b4a53;
+}
+#mainLogo{
+    width: 100%;
+    height: 40px;
+}
+#mainLogo{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    #headerImage{
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-image: url("../images/headerImage.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    #headerImage{
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-image: url("../images/mobileHeader.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    #mainLogo{
+        display: block;
+    }
+    .backToHAWS{
+        display: none;
+    }
+}
+
+#HAWSImg{
+    background-image: url("../images/HAWS_Full_Color_Ret.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+}
+#JCImg{
+    background-image: url("../images/hsvectorlogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+}
+#WTImg{
+    background-image: url("../images/watertownLogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    background-size: contain;
+}
+#catOnStick{
+    background-image: url("../images/catOnStick.png");
+    background-repeat: no-repeat;
+    height:300px;
+    background-size: contain;
+} 
+#orangeCatImg{
+    background-image: url("../images/orangeCat.jpg");
+    background-repeat: no-repeat;
+    height:300px;
+    
+    background-size: contain;
+} 
+#brownTabbyImg{
+    background-image: url("../images/brownTabby.jpg");
+    background-repeat: no-repeat;
+    height:300px;
+    background-size: contain;
+} 
+@media screen and (max-width: 575px) and (min-width: 0px) {
+    #HAWSImg{
+        margin-bottom: 30px;
+        height: 100px;
+    }
+    #JCImg{
+        margin-bottom: 30px;
+        height: 100px;
+    }
+    #WTImg{
+        margin-bottom: 30px;
+        height: 100px;
+    }
+
+}
+@media screen and (max-width: 767px) and (min-width: 0px) {
+    #HAWSSec{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    #WTSec{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 767px){
+    #brownTabbyImg{
+        width: 60%;
+        margin: 0 auto;
+
+    }
+    #orangeCatImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    #catOnStick{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
